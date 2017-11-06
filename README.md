@@ -26,3 +26,7 @@ the values of the pixel at (20,25) in the HSV: 14 75 44<br />
 For RGB, value ranges are all: 0-255<br />
 For YCbCr, value ranges are: 16-235,16-240,16-240<br />
 For HSV, value ranges are: 0-180,0-255,0-255<br />
+## Exercise 3
+As the kernel size increases, the image will become more and more blurring.<br />
+As for filtering the noises, Median filter works better for salt-and-pepper noise.<br />
+Gaussian filter works better for gaussian noise.<br />
