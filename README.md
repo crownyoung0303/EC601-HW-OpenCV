@@ -28,7 +28,9 @@ For YCbCr, value ranges are: 16-235,16-240,16-240<br />
 For HSV, value ranges are: 0-180,0-255,0-255<br />
 ## Exercise 3
 As the kernel size increases, the image will become more and more blurring.<br />
+
 As for filtering the noises, Median filter works better for salt-and-pepper noise.<br />
+
 Gaussian filter works better for gaussian noise.<br />
 ## Exercise 4
 For the binary threshold, it converts the original image only using black and white two colors.
@@ -43,5 +45,4 @@ The disadvantage of the binary threshold:
 The performance of binary threshold may depends on the lighting conditions, if it is too dark or too bright, it may have a bad result.
 
 The advantage of the adaptive threshold:
-it can be added to multiple thresholds, so for the picture that have different lighting conditions, the adaptive threshold can be of great use.
 The adaptive threshold can use multiple thresholds which can find the best threshold according to different lighting conditions and result in a good performance in many cases.
