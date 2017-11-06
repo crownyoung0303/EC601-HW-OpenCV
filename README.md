@@ -30,3 +30,18 @@ For HSV, value ranges are: 0-180,0-255,0-255<br />
 As the kernel size increases, the image will become more and more blurring.<br />
 As for filtering the noises, Median filter works better for salt-and-pepper noise.<br />
 Gaussian filter works better for gaussian noise.<br />
+## Exercise 4
+For the binary threshold, it converts the original image only using black and white two colors.
+
+For the semi threshold, it is the contrast image of the original one.
+
+For the band threshold, it sets the upper band and the lower band of color which can filter some colors.
+
+For the adaptive threshold, it looks like a sketch of the original one extracting most of the information.
+
+The disadvantage of the binary threshold:
+The performance of binary threshold may depends on the lighting conditions, if it is too dark or too bright, it may have a bad result.
+
+The advantage of the adaptive threshold:
+it can be added to multiple thresholds, so for the picture that have different lighting conditions, the adaptive threshold can be of great use.
+The adaptive threshold can use multiple thresholds which can find the best threshold according to different lighting conditions and result in a good performance in many cases.
