@@ -2,7 +2,7 @@
 ## Exercise 1
 Mat img = imread("image.jpg");
 
-A picture is represented by a pixel matrix according to the structure of cvMat:
+A picture is represented by a pixel matrix according to the structure of cvMat:<br />
 typedef struct CvMat
 {
   int type;    
