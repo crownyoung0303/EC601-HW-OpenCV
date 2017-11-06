@@ -3,26 +3,26 @@
 Mat img = imread("image.jpg");
 
 A picture is represented by a pixel matrix according to the structure of cvMat:<br />
-typedef struct CvMat
-{
-  int type;    
-  int step;
-  /* for internal use only */
-  int* refcount;
-  int hdr_refcount;
-  union
-  {
-    uchar* ptr;
-    short* s;
-    int* i;
-    float* fl;
-    double* db;
-  } data;
+typedef struct CvMat<br />
+{<br />
+  int type;<br />
+  int step;<br />
+  /* for internal use only */<br />
+  int* refcount;<br />
+  int hdr_refcount;<br />
+  union<br />
+  {<br />
+    uchar* ptr;<br />
+    short* s;<br />
+    int* i;<br />
+    float* fl;<br />
+    double* db;<br />
+  } data;<br />
 ## Exercise 2
-the values of the pixel at (20,25) in the RGB: 44 37 31
-the values of the pixel at (20,25) in the YCrCb: 38 132 124
-the values of the pixel at (20,25) in the HSV: 14 75 44
-
-For RGB, value ranges are all: 0-255
-For YCbCr, value ranges are: 16-235,16-240,16-240
-For HSV, value ranges are: 0-180,0-255,0-255
+the values of the pixel at (20,25) in the RGB: 44 37 31<br />
+the values of the pixel at (20,25) in the YCrCb: 38 132 124<br />
+the values of the pixel at (20,25) in the HSV: 14 75 44<br />
+<br />
+For RGB, value ranges are all: 0-255<br />
+For YCbCr, value ranges are: 16-235,16-240,16-240<br />
+For HSV, value ranges are: 0-180,0-255,0-255<br />
