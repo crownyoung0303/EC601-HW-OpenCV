@@ -29,7 +29,7 @@ For HSV, value ranges are: 0-180,0-255,0-255<br />
 ## Exercise 3
 As the kernel size increases, the image will become more and more blurring.<br />
 
-As for filtering the noises, Median filter works better for salt-and-pepper noise.<br />
+As for filtering the noises, Median filter works better for salt and pepper noise.<br />
 
 Gaussian filter works better for gaussian noise.<br />
 ## Exercise 4
