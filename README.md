@@ -23,6 +23,6 @@ the values of the pixel at (20,25) in the RGB: 44 37 31
 the values of the pixel at (20,25) in the YCrCb: 38 132 124
 the values of the pixel at (20,25) in the HSV: 14 75 44
 
-For RGB, value ranges are all: 0~255
-For YCbCr, value ranges are: 16~235,16~240,16~240
-For HSV, value ranges are: 0~180,0~255,0~255
+For RGB, value ranges are all: 0-255
+For YCbCr, value ranges are: 16-235,16-240,16-240
+For HSV, value ranges are: 0-180,0-255,0-255
