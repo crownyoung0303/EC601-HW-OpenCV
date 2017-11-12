@@ -46,3 +46,5 @@ The performance of binary threshold may depends on the lighting conditions, if i
 
 The advantage of the adaptive threshold:
 The adaptive threshold can use multiple thresholds which can find the best threshold according to different lighting conditions and result in a good performance in many cases.
+## Exercise 5
+The TemplateMatching.py is in the Exercist 5 folder.
